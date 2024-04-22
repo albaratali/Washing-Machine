@@ -1,0 +1,1822 @@
+Version 4.0 HI-TECH Software Intermediate Code
+"12 C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/clcd.h
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/clcd.h: 12: void init_clcd(void);
+[v _init_clcd `(v ~T0 @X0 0 ef ]
+"21 C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/digitalkeypad.h
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/digitalkeypad.h: 21: void init_digital_keypad(void);
+[v _init_digital_keypad `(v ~T0 @X0 0 ef ]
+"5 C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/timer.h
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/timer.h: 5: void init_timer2(void);
+[v _init_timer2 `(v ~T0 @X0 0 ef ]
+"2633 C:/Users/faizan/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc\pic16f877a.h
+[; ;C:/Users/faizan/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc\pic16f877a.h: 2633: extern volatile __bit PEIE __attribute__((address(0x5E)));
+[v _PEIE `Vb ~T0 @X0 0 e@94 ]
+"2966
+[; ;C:/Users/faizan/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc\pic16f877a.h: 2966: extern volatile __bit TRISC1 __attribute__((address(0x439)));
+[v _TRISC1 `Vb ~T0 @X0 0 e@1081 ]
+"2969
+[; ;C:/Users/faizan/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc\pic16f877a.h: 2969: extern volatile __bit TRISC2 __attribute__((address(0x43A)));
+[v _TRISC2 `Vb ~T0 @X0 0 e@1082 ]
+"2573
+[; ;C:/Users/faizan/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc\pic16f877a.h: 2573: extern volatile __bit GIE __attribute__((address(0x5F)));
+[v _GIE `Vb ~T0 @X0 0 e@95 ]
+"2229
+[; ;C:/Users/faizan/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc\pic16f877a.h: 2229: extern volatile unsigned char ADCON1 __attribute__((address(0x09F)));
+[v _ADCON1 `Vuc ~T0 @X0 0 e@159 ]
+"1325
+[; ;C:/Users/faizan/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc\pic16f877a.h: 1325: extern volatile unsigned char TRISA __attribute__((address(0x085)));
+[v _TRISA `Vuc ~T0 @X0 0 e@133 ]
+"166
+[; ;C:/Users/faizan/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc\pic16f877a.h: 166: extern volatile unsigned char PORTA __attribute__((address(0x005)));
+[v _PORTA `Vuc ~T0 @X0 0 e@5 ]
+[p mainexit ]
+"11 C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/clcd.h
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/clcd.h: 11: void clcd_print(const char *str,unsigned char addr);
+[v _clcd_print `(v ~T0 @X0 0 ef2`*Cuc`uc ]
+"20 C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/digitalkeypad.h
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/digitalkeypad.h: 20: unsigned char read_digital_keypad(unsigned char mode);
+[v _read_digital_keypad `(uc ~T0 @X0 0 ef1`uc ]
+"28 C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.h
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.h: 28: void clear_screen(void);
+[v _clear_screen `(v ~T0 @X0 0 ef ]
+"27
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.h: 27: void power_on_screen(void);
+[v _power_on_screen `(v ~T0 @X0 0 ef ]
+"30
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.h: 30: void set_time_for_program(void);
+[v _set_time_for_program `(v ~T0 @X0 0 ef ]
+"2906 C:/Users/faizan/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc\pic16f877a.h
+[; ;C:/Users/faizan/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc\pic16f877a.h: 2906: extern volatile __bit TMR2ON __attribute__((address(0x92)));
+[v _TMR2ON `Vb ~T0 @X0 0 e@146 ]
+"2714
+[; ;C:/Users/faizan/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc\pic16f877a.h: 2714: extern volatile __bit RC2 __attribute__((address(0x3A)));
+[v _RC2 `Vb ~T0 @X0 0 e@58 ]
+"2660
+[; ;C:/Users/faizan/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc\pic16f877a.h: 2660: extern volatile __bit RA0 __attribute__((address(0x28)));
+[v _RA0 `Vb ~T0 @X0 0 e@40 ]
+"26 C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.h
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.h: 26: void washing_program_display(unsigned char key);
+[v _washing_program_display `(v ~T0 @X0 0 ef1`uc ]
+"29
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.h: 29: void water_level_display(unsigned char key);
+[v _water_level_display `(v ~T0 @X0 0 ef1`uc ]
+[v F164 `(v ~T0 @X0 1 tf1`ul ]
+"20 C:\Program Files\Microchip\xc8\v2.45\pic\include\builtins.h
+[v __delay `JF164 ~T0 @X0 0 e ]
+[p i __delay ]
+"31 C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.h
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.h: 31: void run_program(unsigned char key);
+[v _run_program `(v ~T0 @X0 0 ef1`uc ]
+"10 C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/clcd.h
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/clcd.h: 10: void clcd_putch(const char data,unsigned char addr);
+[v _clcd_putch `(v ~T0 @X0 0 ef2`Cuc`uc ]
+"9
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/clcd.h: 9: void clcd_write(unsigned char byte,unsigned char mode);
+[v _clcd_write `(v ~T0 @X0 0 ef2`uc`uc ]
+"2678 C:/Users/faizan/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc\pic16f877a.h
+[; ;C:/Users/faizan/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc\pic16f877a.h: 2678: extern volatile __bit RB0 __attribute__((address(0x30)));
+[v _RB0 `Vb ~T0 @X0 0 e@48 ]
+"2711
+[; ;C:/Users/faizan/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc\pic16f877a.h: 2711: extern volatile __bit RC1 __attribute__((address(0x39)));
+[v _RC1 `Vb ~T0 @X0 0 e@57 ]
+"54 C:/Users/faizan/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc\pic16f877a.h
+[; ;C:/Users/faizan/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc\pic16f877a.h: 54: __asm("INDF equ 00h");
+[; <" INDF equ 00h ;# ">
+"61
+[; ;C:/Users/faizan/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc\pic16f877a.h: 61: __asm("TMR0 equ 01h");
+[; <" TMR0 equ 01h ;# ">
+"68
+[; ;C:/Users/faizan/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc\pic16f877a.h: 68: __asm("PCL equ 02h");
+[; <" PCL equ 02h ;# ">
+"75
+[; ;C:/Users/faizan/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc\pic16f877a.h: 75: __asm("STATUS equ 03h");
+[; <" STATUS equ 03h ;# ">
+"161
+[; ;C:/Users/faizan/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc\pic16f877a.h: 161: __asm("FSR equ 04h");
+[; <" FSR equ 04h ;# ">
+"168
+[; ;C:/Users/faizan/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc\pic16f877a.h: 168: __asm("PORTA equ 05h");
+[; <" PORTA equ 05h ;# ">
+"218
+[; ;C:/Users/faizan/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc\pic16f877a.h: 218: __asm("PORTB equ 06h");
+[; <" PORTB equ 06h ;# ">
+"280
+[; ;C:/Users/faizan/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc\pic16f877a.h: 280: __asm("PORTC equ 07h");
+[; <" PORTC equ 07h ;# ">
+"342
+[; ;C:/Users/faizan/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc\pic16f877a.h: 342: __asm("PORTD equ 08h");
+[; <" PORTD equ 08h ;# ">
+"404
+[; ;C:/Users/faizan/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc\pic16f877a.h: 404: __asm("PORTE equ 09h");
+[; <" PORTE equ 09h ;# ">
+"436
+[; ;C:/Users/faizan/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc\pic16f877a.h: 436: __asm("PCLATH equ 0Ah");
+[; <" PCLATH equ 0Ah ;# ">
+"456
+[; ;C:/Users/faizan/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc\pic16f877a.h: 456: __asm("INTCON equ 0Bh");
+[; <" INTCON equ 0Bh ;# ">
+"534
+[; ;C:/Users/faizan/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc\pic16f877a.h: 534: __asm("PIR1 equ 0Ch");
+[; <" PIR1 equ 0Ch ;# ">
+"596
+[; ;C:/Users/faizan/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc\pic16f877a.h: 596: __asm("PIR2 equ 0Dh");
+[; <" PIR2 equ 0Dh ;# ">
+"636
+[; ;C:/Users/faizan/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc\pic16f877a.h: 636: __asm("TMR1 equ 0Eh");
+[; <" TMR1 equ 0Eh ;# ">
+"643
+[; ;C:/Users/faizan/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc\pic16f877a.h: 643: __asm("TMR1L equ 0Eh");
+[; <" TMR1L equ 0Eh ;# ">
+"650
+[; ;C:/Users/faizan/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc\pic16f877a.h: 650: __asm("TMR1H equ 0Fh");
+[; <" TMR1H equ 0Fh ;# ">
+"657
+[; ;C:/Users/faizan/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc\pic16f877a.h: 657: __asm("T1CON equ 010h");
+[; <" T1CON equ 010h ;# ">
+"732
+[; ;C:/Users/faizan/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc\pic16f877a.h: 732: __asm("TMR2 equ 011h");
+[; <" TMR2 equ 011h ;# ">
+"739
+[; ;C:/Users/faizan/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc\pic16f877a.h: 739: __asm("T2CON equ 012h");
+[; <" T2CON equ 012h ;# ">
+"810
+[; ;C:/Users/faizan/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc\pic16f877a.h: 810: __asm("SSPBUF equ 013h");
+[; <" SSPBUF equ 013h ;# ">
+"817
+[; ;C:/Users/faizan/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc\pic16f877a.h: 817: __asm("SSPCON equ 014h");
+[; <" SSPCON equ 014h ;# ">
+"887
+[; ;C:/Users/faizan/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc\pic16f877a.h: 887: __asm("CCPR1 equ 015h");
+[; <" CCPR1 equ 015h ;# ">
+"894
+[; ;C:/Users/faizan/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc\pic16f877a.h: 894: __asm("CCPR1L equ 015h");
+[; <" CCPR1L equ 015h ;# ">
+"901
+[; ;C:/Users/faizan/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc\pic16f877a.h: 901: __asm("CCPR1H equ 016h");
+[; <" CCPR1H equ 016h ;# ">
+"908
+[; ;C:/Users/faizan/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc\pic16f877a.h: 908: __asm("CCP1CON equ 017h");
+[; <" CCP1CON equ 017h ;# ">
+"966
+[; ;C:/Users/faizan/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc\pic16f877a.h: 966: __asm("RCSTA equ 018h");
+[; <" RCSTA equ 018h ;# ">
+"1061
+[; ;C:/Users/faizan/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc\pic16f877a.h: 1061: __asm("TXREG equ 019h");
+[; <" TXREG equ 019h ;# ">
+"1068
+[; ;C:/Users/faizan/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc\pic16f877a.h: 1068: __asm("RCREG equ 01Ah");
+[; <" RCREG equ 01Ah ;# ">
+"1075
+[; ;C:/Users/faizan/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc\pic16f877a.h: 1075: __asm("CCPR2 equ 01Bh");
+[; <" CCPR2 equ 01Bh ;# ">
+"1082
+[; ;C:/Users/faizan/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc\pic16f877a.h: 1082: __asm("CCPR2L equ 01Bh");
+[; <" CCPR2L equ 01Bh ;# ">
+"1089
+[; ;C:/Users/faizan/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc\pic16f877a.h: 1089: __asm("CCPR2H equ 01Ch");
+[; <" CCPR2H equ 01Ch ;# ">
+"1096
+[; ;C:/Users/faizan/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc\pic16f877a.h: 1096: __asm("CCP2CON equ 01Dh");
+[; <" CCP2CON equ 01Dh ;# ">
+"1154
+[; ;C:/Users/faizan/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc\pic16f877a.h: 1154: __asm("ADRESH equ 01Eh");
+[; <" ADRESH equ 01Eh ;# ">
+"1161
+[; ;C:/Users/faizan/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc\pic16f877a.h: 1161: __asm("ADCON0 equ 01Fh");
+[; <" ADCON0 equ 01Fh ;# ">
+"1257
+[; ;C:/Users/faizan/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc\pic16f877a.h: 1257: __asm("OPTION_REG equ 081h");
+[; <" OPTION_REG equ 081h ;# ">
+"1327
+[; ;C:/Users/faizan/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc\pic16f877a.h: 1327: __asm("TRISA equ 085h");
+[; <" TRISA equ 085h ;# ">
+"1377
+[; ;C:/Users/faizan/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc\pic16f877a.h: 1377: __asm("TRISB equ 086h");
+[; <" TRISB equ 086h ;# ">
+"1439
+[; ;C:/Users/faizan/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc\pic16f877a.h: 1439: __asm("TRISC equ 087h");
+[; <" TRISC equ 087h ;# ">
+"1501
+[; ;C:/Users/faizan/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc\pic16f877a.h: 1501: __asm("TRISD equ 088h");
+[; <" TRISD equ 088h ;# ">
+"1563
+[; ;C:/Users/faizan/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc\pic16f877a.h: 1563: __asm("TRISE equ 089h");
+[; <" TRISE equ 089h ;# ">
+"1620
+[; ;C:/Users/faizan/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc\pic16f877a.h: 1620: __asm("PIE1 equ 08Ch");
+[; <" PIE1 equ 08Ch ;# ">
+"1682
+[; ;C:/Users/faizan/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc\pic16f877a.h: 1682: __asm("PIE2 equ 08Dh");
+[; <" PIE2 equ 08Dh ;# ">
+"1722
+[; ;C:/Users/faizan/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc\pic16f877a.h: 1722: __asm("PCON equ 08Eh");
+[; <" PCON equ 08Eh ;# ">
+"1756
+[; ;C:/Users/faizan/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc\pic16f877a.h: 1756: __asm("SSPCON2 equ 091h");
+[; <" SSPCON2 equ 091h ;# ">
+"1818
+[; ;C:/Users/faizan/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc\pic16f877a.h: 1818: __asm("PR2 equ 092h");
+[; <" PR2 equ 092h ;# ">
+"1825
+[; ;C:/Users/faizan/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc\pic16f877a.h: 1825: __asm("SSPADD equ 093h");
+[; <" SSPADD equ 093h ;# ">
+"1832
+[; ;C:/Users/faizan/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc\pic16f877a.h: 1832: __asm("SSPSTAT equ 094h");
+[; <" SSPSTAT equ 094h ;# ">
+"2001
+[; ;C:/Users/faizan/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc\pic16f877a.h: 2001: __asm("TXSTA equ 098h");
+[; <" TXSTA equ 098h ;# ">
+"2082
+[; ;C:/Users/faizan/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc\pic16f877a.h: 2082: __asm("SPBRG equ 099h");
+[; <" SPBRG equ 099h ;# ">
+"2089
+[; ;C:/Users/faizan/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc\pic16f877a.h: 2089: __asm("CMCON equ 09Ch");
+[; <" CMCON equ 09Ch ;# ">
+"2159
+[; ;C:/Users/faizan/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc\pic16f877a.h: 2159: __asm("CVRCON equ 09Dh");
+[; <" CVRCON equ 09Dh ;# ">
+"2224
+[; ;C:/Users/faizan/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc\pic16f877a.h: 2224: __asm("ADRESL equ 09Eh");
+[; <" ADRESL equ 09Eh ;# ">
+"2231
+[; ;C:/Users/faizan/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc\pic16f877a.h: 2231: __asm("ADCON1 equ 09Fh");
+[; <" ADCON1 equ 09Fh ;# ">
+"2290
+[; ;C:/Users/faizan/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc\pic16f877a.h: 2290: __asm("EEDATA equ 010Ch");
+[; <" EEDATA equ 010Ch ;# ">
+"2297
+[; ;C:/Users/faizan/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc\pic16f877a.h: 2297: __asm("EEADR equ 010Dh");
+[; <" EEADR equ 010Dh ;# ">
+"2304
+[; ;C:/Users/faizan/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc\pic16f877a.h: 2304: __asm("EEDATH equ 010Eh");
+[; <" EEDATH equ 010Eh ;# ">
+"2311
+[; ;C:/Users/faizan/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc\pic16f877a.h: 2311: __asm("EEADRH equ 010Fh");
+[; <" EEADRH equ 010Fh ;# ">
+"2318
+[; ;C:/Users/faizan/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc\pic16f877a.h: 2318: __asm("EECON1 equ 018Ch");
+[; <" EECON1 equ 018Ch ;# ">
+"2363
+[; ;C:/Users/faizan/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc\pic16f877a.h: 2363: __asm("EECON2 equ 018Dh");
+[; <" EECON2 equ 018Dh ;# ">
+"5 C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 5: static void init_config(void)
+[p x WDTE=OFF  ]
+"6
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 6: {
+[v _reset_mode `uc ~T0 @X0 1 e ]
+[v _program_no `uc ~T0 @X0 1 e ]
+[i _program_no
+-> -> 0 `i `uc
+]
+[v _water_level_index `uc ~T0 @X0 1 e ]
+[i _water_level_index
+-> -> 0 `i `uc
+]
+"7
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 7:     init_clcd();
+[v _wash_time `i ~T0 @X0 1 e ]
+[v _rinse_time `i ~T0 @X0 1 e ]
+[v _spin_time `i ~T0 @X0 1 e ]
+"8
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 8:     init_digital_keypad();
+[v _washing_prog `*uc ~T0 @X0 -> 12 `i e ]
+[i _washing_prog
+:U ..
+:s 1C
+:s 2C
+:s 3C
+:s 4C
+:s 5C
+:s 6C
+:s 7C
+:s 8C
+:s 9C
+:s 10C
+:s 11C
+:s 12C
+..
+]
+"9
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 9:     init_timer2();
+[v _water_level_arr `*uc ~T0 @X0 -> 5 `i e ]
+[i _water_level_arr
+:U ..
+:s 13C
+:s 14C
+:s 15C
+:s 16C
+:s 17C
+..
+]
+"10
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 10:     PEIE=1;
+[v _min `uc ~T0 @X0 1 e ]
+[v _sec `uc ~T0 @X0 1 e ]
+"11
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 11:     TRISC1=0;
+[v _operation_mode `uc ~T0 @X0 1 e ]
+"12
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 12:     TRISC2=0;
+[v _init_config `(v ~T0 @X0 1 sf ]
+"13
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 13:     GIE=1;
+{
+[e :U _init_config ]
+[f ]
+"14
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 14:     ADCON1=0x06;
+[e ( _init_clcd ..  ]
+"15
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 15:     TRISA=0;
+[e ( _init_digital_keypad ..  ]
+"16
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 16:     PORTA=0;
+[e ( _init_timer2 ..  ]
+"17
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 17: }
+[e = _PEIE -> -> 1 `i `b ]
+"18
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 18: void main(void)
+[e = _TRISC1 -> -> 0 `i `b ]
+"19
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 19: {
+[e = _TRISC2 -> -> 0 `i `b ]
+"20
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 20:     unsigned char key;
+[e = _GIE -> -> 1 `i `b ]
+"21
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 21:     operation_mode = 0x01;
+[e = _ADCON1 -> -> 6 `i `uc ]
+"22
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 22:     init_config();
+[e = _TRISA -> -> 0 `i `uc ]
+"23
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 23:     clcd_print(" Press Key5 To ",(0x80+0));
+[e = _PORTA -> -> 0 `i `uc ]
+"24
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 24:     clcd_print("    Power ON    ",(0xC0+0));
+[e :UE 99 ]
+}
+[v $root$_main `(v ~T0 @X0 0 e ]
+"25
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 25:     clcd_print(" Washing Machine ",(0x90+0));
+[v _main `(v ~T0 @X0 1 ef ]
+"26
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 26:     while(read_digital_keypad(1) != 0x2F)
+{
+[e :U _main ]
+[f ]
+"27
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 27:     {
+[v _key `uc ~T0 @X0 1 a ]
+"28
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 28:         for(int j=0;j<3000;j++);
+[e = _operation_mode -> -> 1 `i `uc ]
+"29
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 29:     }
+[e ( _init_config ..  ]
+"30
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 30:     clear_screen();
+[e ( _clcd_print (2 , :s 18C -> + -> 128 `i -> 0 `i `uc ]
+"31
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 31:     power_on_screen();
+[e ( _clcd_print (2 , :s 19C -> + -> 192 `i -> 0 `i `uc ]
+"32
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 32:     reset_mode = 0x10;
+[e ( _clcd_print (2 , :s 20C -> + -> 144 `i -> 0 `i `uc ]
+"33
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 33:     while(1)
+[e $U 101  ]
+[e :U 102 ]
+"34
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 34:     {
+{
+"35
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 35:       key=read_digital_keypad(1);
+{
+[v _j `i ~T0 @X0 1 a ]
+[e = _j -> 0 `i ]
+[e $ < _j -> 3000 `i 104  ]
+[e $U 105  ]
+[e :U 104 ]
+[e ++ _j -> 1 `i ]
+[e $ < _j -> 3000 `i 104  ]
+[e :U 105 ]
+}
+"36
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 36:       for(int j=0;j<3000;j++);
+}
+[e :U 101 ]
+"33
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 33:     while(1)
+[e $ != -> ( _read_digital_keypad (1 -> -> 1 `i `uc `i -> 47 `i 102  ]
+[e :U 103 ]
+"37
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 37:       if(key == 0xB7 && operation_mode == 0x01)
+[e ( _clear_screen ..  ]
+"38
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 38:       {
+[e ( _power_on_screen ..  ]
+"39
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 39:           operation_mode=0x02;
+[e = _reset_mode -> -> 16 `i `uc ]
+"40
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 40:           reset_mode=0x11;
+[e :U 108 ]
+"41
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 41:       }
+{
+"42
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 42:       else if(key==0xB7 && operation_mode==0x02)
+[e = _key ( _read_digital_keypad (1 -> -> 1 `i `uc ]
+"43
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 43:       {
+{
+[v _j `i ~T0 @X0 1 a ]
+[e = _j -> 0 `i ]
+[e $ < _j -> 3000 `i 110  ]
+[e $U 111  ]
+[e :U 110 ]
+[e ++ _j -> 1 `i ]
+[e $ < _j -> 3000 `i 110  ]
+[e :U 111 ]
+}
+"44
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 44:           set_time_for_program();
+[e $ ! && == -> _key `i -> 183 `i == -> _operation_mode `i -> 1 `i 113  ]
+"45
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 45:           clear_screen();
+{
+"46
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 46:           clcd_print(" Press Switch:",(0x80+0));
+[e = _operation_mode -> -> 2 `i `uc ]
+"47
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 47:           clcd_print(" SW5: START ",(0xC0+0));
+[e = _reset_mode -> -> 17 `i `uc ]
+"48
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 48:           clcd_print(" SW6: STOP ",(0x90+0));
+}
+[e $U 114  ]
+"49
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 49:           operation_mode=0x03;
+[e :U 113 ]
+[e $ ! && == -> _key `i -> 183 `i == -> _operation_mode `i -> 2 `i 115  ]
+"50
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 50:       }
+{
+"51
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 51:       else if(key == 0x2F && operation_mode ==0x05)
+[e ( _set_time_for_program ..  ]
+"52
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 52:       {
+[e ( _clear_screen ..  ]
+"53
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 53:           TMR2ON = 1;
+[e ( _clcd_print (2 , :s 21C -> + -> 128 `i -> 0 `i `uc ]
+"54
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 54:           RC2 = 1;
+[e ( _clcd_print (2 , :s 22C -> + -> 192 `i -> 0 `i `uc ]
+"55
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 55:           RA0=1;
+[e ( _clcd_print (2 , :s 23C -> + -> 144 `i -> 0 `i `uc ]
+"56
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 56:           operation_mode=0x04;
+[e = _operation_mode -> -> 3 `i `uc ]
+"57
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 57:       }
+}
+[e $U 116  ]
+"58
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 58:       switch(operation_mode)
+[e :U 115 ]
+[e $ ! && == -> _key `i -> 47 `i == -> _operation_mode `i -> 5 `i 117  ]
+"59
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 59:       {
+{
+"60
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 60:           case 0x01:
+[e = _TMR2ON -> -> 1 `i `b ]
+"61
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 61:               washing_program_display(key);
+[e = _RC2 -> -> 1 `i `b ]
+"62
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 62:               break;
+[e = _RA0 -> -> 1 `i `b ]
+"63
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 63:           case 0x02:
+[e = _operation_mode -> -> 4 `i `uc ]
+"64
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 64:               water_level_display(key);
+}
+[e :U 117 ]
+[e :U 116 ]
+[e :U 114 ]
+"65
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 65:               break;
+[e $U 119  ]
+"66
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 66:           case 0x03:
+{
+"67
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 67:               if(key==0x2F)
+[e :U 120 ]
+"68
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 68:               {
+[e ( _washing_program_display (1 _key ]
+"69
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 69:                   operation_mode=0x04;
+[e $U 118  ]
+"70
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 70:                   reset_mode=0x12;
+[e :U 121 ]
+"71
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 71:                   continue;
+[e ( _water_level_display (1 _key ]
+"72
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 72:               }
+[e $U 118  ]
+"73
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 73:               else if(key==0x1F)
+[e :U 122 ]
+"74
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 74:               {
+[e $ ! == -> _key `i -> 47 `i 123  ]
+"75
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 75:                   clear_screen();
+{
+"76
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 76:                   clcd_print("Returning To ",(0x80+2));
+[e = _operation_mode -> -> 4 `i `uc ]
+"77
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 77:                   clcd_print("Main Screen...",(0xC0+2));
+[e = _reset_mode -> -> 18 `i `uc ]
+"78
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 78:                   _delay((unsigned long)((1000)*(20000000/4000.0)));
+[e $U 107  ]
+"79
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 79:                   operation_mode=0x01;
+}
+[e $U 124  ]
+"80
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 80:                   reset_mode=0x10;
+[e :U 123 ]
+[e $ ! == -> _key `i -> 31 `i 125  ]
+"81
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 81:                   continue;
+{
+"82
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 82:               }
+[e ( _clear_screen ..  ]
+"83
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 83:               break;
+[e ( _clcd_print (2 , :s 24C -> + -> 128 `i -> 2 `i `uc ]
+"84
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 84:           case 0x04:
+[e ( _clcd_print (2 , :s 25C -> + -> 192 `i -> 2 `i `uc ]
+"85
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 85:               run_program(key);
+[e ( __delay (1 -> * -> -> 1000 `i `d / -> -> 20000000 `l `d .4000.0 `ul ]
+"86
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 86:               break;
+[e = _operation_mode -> -> 1 `i `uc ]
+"87
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 87:       }
+[e = _reset_mode -> -> 16 `i `uc ]
+"88
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 88:       reset_mode=0x00;
+[e $U 107  ]
+"89
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 89:     }
+}
+[e :U 125 ]
+[e :U 124 ]
+"90
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 90: }
+[e $U 118  ]
+"91
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 91: void power_on_screen(void)
+[e :U 126 ]
+"92
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 92: {
+[e ( _run_program (1 _key ]
+"93
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 93:     for(unsigned char i=0;i<16;i++)
+[e $U 118  ]
+"94
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 94:     {
+}
+[e $U 118  ]
+[e :U 119 ]
+[e [\ -> _operation_mode `i , $ -> 1 `i 120
+ , $ -> 2 `i 121
+ , $ -> 3 `i 122
+ , $ -> 4 `i 126
+ 118 ]
+[e :U 118 ]
+"95
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 95:         clcd_putch(0x2A,(0x80+i));
+[e = _reset_mode -> -> 0 `i `uc ]
+"96
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 96:     }
+}
+[e :U 107 ]
+[e $U 108  ]
+[e :U 109 ]
+"97
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 97:     clcd_print("  Powering ON   ",(0xC0+0));
+[e :UE 100 ]
+}
+"98
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 98:     clcd_print(" Washing Machine ",(0x90+0));
+[v _power_on_screen `(v ~T0 @X0 1 ef ]
+"99
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 99:     for(unsigned char i=0;i<16;i++)
+{
+[e :U _power_on_screen ]
+[f ]
+"100
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 100:     {
+{
+[v _i `uc ~T0 @X0 1 a ]
+[e = _i -> -> 0 `i `uc ]
+[e $ < -> _i `i -> 16 `i 128  ]
+[e $U 129  ]
+[e :U 128 ]
+"101
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 101:         clcd_putch(0x2A,(0xD0+i));
+{
+"102
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 102:     }
+[e ( _clcd_putch (2 , -> -> 42 `i `uc -> + -> 128 `i -> _i `i `uc ]
+"103
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 103:     _delay((unsigned long)((1000)*(20000000/4000.0)));
+}
+[e ++ _i -> -> 1 `i `uc ]
+[e $ < -> _i `i -> 16 `i 128  ]
+[e :U 129 ]
+}
+"104
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 104: }
+[e ( _clcd_print (2 , :s 26C -> + -> 192 `i -> 0 `i `uc ]
+"105
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 105: void clear_screen(void)
+[e ( _clcd_print (2 , :s 27C -> + -> 144 `i -> 0 `i `uc ]
+"106
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 106: {
+{
+[v _i `uc ~T0 @X0 1 a ]
+[e = _i -> -> 0 `i `uc ]
+[e $ < -> _i `i -> 16 `i 131  ]
+[e $U 132  ]
+[e :U 131 ]
+"107
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 107:     clcd_write(0x01,0);
+{
+"108
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 108:     _delay((unsigned long)((100)*(20000000/4000000.0)));
+[e ( _clcd_putch (2 , -> -> 42 `i `uc -> + -> 208 `i -> _i `i `uc ]
+"109
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 109: }
+}
+[e ++ _i -> -> 1 `i `uc ]
+[e $ < -> _i `i -> 16 `i 131  ]
+[e :U 132 ]
+}
+"110
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 110: void washing_program_display(unsigned char key)
+[e ( __delay (1 -> * -> -> 1000 `i `d / -> -> 20000000 `l `d .4000.0 `ul ]
+"111
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 111: {
+[e :UE 127 ]
+}
+"112
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 112:     if(reset_mode == 0x10)
+[v _clear_screen `(v ~T0 @X0 1 ef ]
+"113
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 113:     {
+{
+[e :U _clear_screen ]
+[f ]
+"114
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 114:         clear_screen();
+[e ( _clcd_write (2 , -> -> 1 `i `uc -> -> 0 `i `uc ]
+"115
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 115:         program_no=0;
+[e ( __delay (1 -> * -> -> 100 `i `d / -> -> 20000000 `l `d .4000000.0 `ul ]
+"116
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 116:     }
+[e :UE 134 ]
+}
+"117
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 117:     if(key==0x37)
+[v _washing_program_display `(v ~T0 @X0 1 ef1`uc ]
+"118
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 118:     {
+{
+[e :U _washing_program_display ]
+"117
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 117:     if(key==0x37)
+[v _key `uc ~T0 @X0 1 r1 ]
+"118
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 118:     {
+[f ]
+"119
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 119:         program_no++;
+[e $ ! == -> _reset_mode `i -> 16 `i 136  ]
+"120
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 120:         if(program_no==12)
+{
+"121
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 121:         {
+[e ( _clear_screen ..  ]
+"122
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 122:             program_no=0;
+[e = _program_no -> -> 0 `i `uc ]
+"123
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 123:         }
+}
+[e :U 136 ]
+"124
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 124:         clear_screen();
+[e $ ! == -> _key `i -> 55 `i 137  ]
+"125
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 125:     }
+{
+"126
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 126:     clcd_print("Washing Programs",(0x80+0));
+[e ++ _program_no -> -> 1 `i `uc ]
+"127
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 127:     clcd_putch('*',(0xC0+0));
+[e $ ! == -> _program_no `i -> 12 `i 138  ]
+"128
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 128:     if(program_no<=9)
+{
+"129
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 129:     {
+[e = _program_no -> -> 0 `i `uc ]
+"130
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 130:     clcd_print(washing_prog[program_no],(0xC0+2));
+}
+[e :U 138 ]
+"131
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 131:     clcd_print(washing_prog[program_no + 1],(0x90+2));
+[e ( _clear_screen ..  ]
+"132
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 132:     clcd_print(washing_prog[program_no + 2],(0xD0+2));
+}
+[e :U 137 ]
+"133
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 133:     }
+[e ( _clcd_print (2 , :s 28C -> + -> 128 `i -> 0 `i `uc ]
+"134
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 134:     else if(program_no==10)
+[e ( _clcd_putch (2 , -> -> 42 `ui `uc -> + -> 192 `i -> 0 `i `uc ]
+"135
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 135:     {
+[e $ ! <= -> _program_no `i -> 9 `i 139  ]
+"136
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 136:     clcd_print(washing_prog[program_no],(0xC0+2));
+{
+"137
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 137:     clcd_print(washing_prog[program_no + 1],(0x90+2));
+[e ( _clcd_print (2 , -> *U + &U _washing_prog * -> _program_no `ux -> -> # *U &U _washing_prog `ui `ux `*Cuc -> + -> 192 `i -> 2 `i `uc ]
+"138
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 138:     clcd_print(washing_prog[0],(0xD0+2));
+[e ( _clcd_print (2 , -> *U + &U _washing_prog * -> -> + -> _program_no `i -> 1 `i `ui `ux -> -> # *U &U _washing_prog `ui `ux `*Cuc -> + -> 144 `i -> 2 `i `uc ]
+"139
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 139:     }
+[e ( _clcd_print (2 , -> *U + &U _washing_prog * -> -> + -> _program_no `i -> 2 `i `ui `ux -> -> # *U &U _washing_prog `ui `ux `*Cuc -> + -> 208 `i -> 2 `i `uc ]
+"140
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 140:     else if(program_no==11)
+}
+[e $U 140  ]
+"141
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 141:     {
+[e :U 139 ]
+[e $ ! == -> _program_no `i -> 10 `i 141  ]
+"142
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 142:     clcd_print(washing_prog[program_no],(0xC0+2));
+{
+"143
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 143:     clcd_print(washing_prog[0],(0x90+2));
+[e ( _clcd_print (2 , -> *U + &U _washing_prog * -> _program_no `ux -> -> # *U &U _washing_prog `ui `ux `*Cuc -> + -> 192 `i -> 2 `i `uc ]
+"144
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 144:     clcd_print(washing_prog[1],(0xD0+2));
+[e ( _clcd_print (2 , -> *U + &U _washing_prog * -> -> + -> _program_no `i -> 1 `i `ui `ux -> -> # *U &U _washing_prog `ui `ux `*Cuc -> + -> 144 `i -> 2 `i `uc ]
+"145
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 145:     }
+[e ( _clcd_print (2 , -> *U + &U _washing_prog * -> -> -> 0 `i `ui `ux -> -> # *U &U _washing_prog `ui `ux `*Cuc -> + -> 208 `i -> 2 `i `uc ]
+"146
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 146: }
+}
+[e $U 142  ]
+"147
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 147: void water_level_display(unsigned char key)
+[e :U 141 ]
+[e $ ! == -> _program_no `i -> 11 `i 143  ]
+"148
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 148: {
+{
+"149
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 149:     if(reset_mode==0x11)
+[e ( _clcd_print (2 , -> *U + &U _washing_prog * -> _program_no `ux -> -> # *U &U _washing_prog `ui `ux `*Cuc -> + -> 192 `i -> 2 `i `uc ]
+"150
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 150:     {
+[e ( _clcd_print (2 , -> *U + &U _washing_prog * -> -> -> 0 `i `ui `ux -> -> # *U &U _washing_prog `ui `ux `*Cuc -> + -> 144 `i -> 2 `i `uc ]
+"151
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 151:         water_level_index=0;
+[e ( _clcd_print (2 , -> *U + &U _washing_prog * -> -> -> 1 `i `ui `ux -> -> # *U &U _washing_prog `ui `ux `*Cuc -> + -> 208 `i -> 2 `i `uc ]
+"152
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 152:         clear_screen();
+}
+[e :U 143 ]
+[e :U 142 ]
+[e :U 140 ]
+"153
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 153:     }
+[e :UE 135 ]
+}
+"154
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 154:     if(key == 0x37)
+[v _water_level_display `(v ~T0 @X0 1 ef1`uc ]
+"155
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 155:     {
+{
+[e :U _water_level_display ]
+"154
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 154:     if(key == 0x37)
+[v _key `uc ~T0 @X0 1 r1 ]
+"155
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 155:     {
+[f ]
+"156
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 156:         water_level_index++;
+[e $ ! == -> _reset_mode `i -> 17 `i 145  ]
+"157
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 157:         if(water_level_index==5)
+{
+"158
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 158:         {
+[e = _water_level_index -> -> 0 `i `uc ]
+"159
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 159:             water_level_index=0;
+[e ( _clear_screen ..  ]
+"160
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 160:         }
+}
+[e :U 145 ]
+"161
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 161:         clear_screen();
+[e $ ! == -> _key `i -> 55 `i 146  ]
+"162
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 162:     }
+{
+"163
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 163:     clcd_print("Water Level:",(0x80+0));
+[e ++ _water_level_index -> -> 1 `i `uc ]
+"164
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 164:     clcd_putch('*',(0xC0+0));
+[e $ ! == -> _water_level_index `i -> 5 `i 147  ]
+"165
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 165:     if(water_level_index <= 2)
+{
+"166
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 166:     {
+[e = _water_level_index -> -> 0 `i `uc ]
+"167
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 167:         clcd_print(water_level_arr[water_level_index],(0xC0+2));
+}
+[e :U 147 ]
+"168
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 168:         clcd_print(water_level_arr[water_level_index + 1],(0x90+2));
+[e ( _clear_screen ..  ]
+"169
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 169:         clcd_print(water_level_arr[water_level_index + 2],(0xD0+2));
+}
+[e :U 146 ]
+"170
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 170:     }
+[e ( _clcd_print (2 , :s 29C -> + -> 128 `i -> 0 `i `uc ]
+"171
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 171:     else if(water_level_index == 3)
+[e ( _clcd_putch (2 , -> -> 42 `ui `uc -> + -> 192 `i -> 0 `i `uc ]
+"172
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 172:     {
+[e $ ! <= -> _water_level_index `i -> 2 `i 148  ]
+"173
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 173:         clcd_print(water_level_arr[water_level_index],(0xC0+2));
+{
+"174
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 174:         clcd_print(water_level_arr[water_level_index + 1],(0x90+2));
+[e ( _clcd_print (2 , -> *U + &U _water_level_arr * -> _water_level_index `ux -> -> # *U &U _water_level_arr `ui `ux `*Cuc -> + -> 192 `i -> 2 `i `uc ]
+"175
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 175:         clcd_print(water_level_arr[0],(0xD0+2));
+[e ( _clcd_print (2 , -> *U + &U _water_level_arr * -> -> + -> _water_level_index `i -> 1 `i `ui `ux -> -> # *U &U _water_level_arr `ui `ux `*Cuc -> + -> 144 `i -> 2 `i `uc ]
+"176
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 176:     }
+[e ( _clcd_print (2 , -> *U + &U _water_level_arr * -> -> + -> _water_level_index `i -> 2 `i `ui `ux -> -> # *U &U _water_level_arr `ui `ux `*Cuc -> + -> 208 `i -> 2 `i `uc ]
+"177
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 177:     else if(water_level_index == 4)
+}
+[e $U 149  ]
+"178
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 178:     {
+[e :U 148 ]
+[e $ ! == -> _water_level_index `i -> 3 `i 150  ]
+"179
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 179:         clcd_print(water_level_arr[water_level_index],(0xC0+2));
+{
+"180
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 180:         clcd_print(water_level_arr[0],(0x90+2));
+[e ( _clcd_print (2 , -> *U + &U _water_level_arr * -> _water_level_index `ux -> -> # *U &U _water_level_arr `ui `ux `*Cuc -> + -> 192 `i -> 2 `i `uc ]
+"181
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 181:         clcd_print(water_level_arr[1],(0xD0+2));
+[e ( _clcd_print (2 , -> *U + &U _water_level_arr * -> -> + -> _water_level_index `i -> 1 `i `ui `ux -> -> # *U &U _water_level_arr `ui `ux `*Cuc -> + -> 144 `i -> 2 `i `uc ]
+"182
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 182:     }
+[e ( _clcd_print (2 , -> *U + &U _water_level_arr * -> -> -> 0 `i `ui `ux -> -> # *U &U _water_level_arr `ui `ux `*Cuc -> + -> 208 `i -> 2 `i `uc ]
+"183
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 183: }
+}
+[e $U 151  ]
+"184
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 184: void set_time_for_program(void)
+[e :U 150 ]
+[e $ ! == -> _water_level_index `i -> 4 `i 152  ]
+"185
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 185: {
+{
+"186
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 186:     switch(program_no)
+[e ( _clcd_print (2 , -> *U + &U _water_level_arr * -> _water_level_index `ux -> -> # *U &U _water_level_arr `ui `ux `*Cuc -> + -> 192 `i -> 2 `i `uc ]
+"187
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 187:     {
+[e ( _clcd_print (2 , -> *U + &U _water_level_arr * -> -> -> 0 `i `ui `ux -> -> # *U &U _water_level_arr `ui `ux `*Cuc -> + -> 144 `i -> 2 `i `uc ]
+"188
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 188:         case 0:
+[e ( _clcd_print (2 , -> *U + &U _water_level_arr * -> -> -> 1 `i `ui `ux -> -> # *U &U _water_level_arr `ui `ux `*Cuc -> + -> 208 `i -> 2 `i `uc ]
+"189
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 189:             switch(water_level_index)
+}
+[e :U 152 ]
+[e :U 151 ]
+[e :U 149 ]
+"190
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 190:             {
+[e :UE 144 ]
+}
+"191
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 191:                 case 1:
+[v _set_time_for_program `(v ~T0 @X0 1 ef ]
+"192
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 192:                     sec=33;
+{
+[e :U _set_time_for_program ]
+[f ]
+"193
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 193:                     min=0;
+[e $U 155  ]
+"194
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 194:                     break;
+{
+"195
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 195:                 case 0:
+[e :U 156 ]
+"196
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 196:                 case 2:
+[e $U 158  ]
+"197
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 197:                     sec=41;
+{
+"198
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 198:                     min=0;
+[e :U 159 ]
+"199
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 199:                     break;
+[e = _sec -> -> 33 `i `uc ]
+"200
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 200:                 case 3:
+[e = _min -> -> 0 `i `uc ]
+"201
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 201:                 case 4:
+[e $U 157  ]
+"202
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 202:                     sec=45;
+[e :U 160 ]
+"203
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 203:                     min=0;
+[e :U 161 ]
+"204
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 204:             }
+[e = _sec -> -> 41 `i `uc ]
+"205
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 205:             break;
+[e = _min -> -> 0 `i `uc ]
+"206
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 206:         case 1:
+[e $U 157  ]
+"207
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 207:             switch(water_level_index)
+[e :U 162 ]
+"208
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 208:             {
+[e :U 163 ]
+"209
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 209:                 case 1:
+[e = _sec -> -> 45 `i `uc ]
+"210
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 210:                     sec=43;
+[e = _min -> -> 0 `i `uc ]
+"211
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 211:                     min=0;
+}
+[e $U 157  ]
+[e :U 158 ]
+[e [\ -> _water_level_index `i , $ -> 1 `i 159
+ , $ -> 0 `i 160
+ , $ -> 2 `i 161
+ , $ -> 3 `i 162
+ , $ -> 4 `i 163
+ 157 ]
+[e :U 157 ]
+"212
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 212:                 case 0:
+[e $U 154  ]
+"213
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 213:                 case 2:
+[e :U 164 ]
+"214
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 214:                     sec=50;
+[e $U 166  ]
+"215
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 215:                     min=0;
+{
+"216
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 216:                     break;
+[e :U 167 ]
+"217
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 217:                 case 3:
+[e = _sec -> -> 43 `i `uc ]
+"218
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 218:                 case 4:
+[e = _min -> -> 0 `i `uc ]
+"219
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 219:                     sec=57;
+[e :U 168 ]
+"220
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 220:                     min=0;
+[e :U 169 ]
+"221
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 221:             }
+[e = _sec -> -> 50 `i `uc ]
+"222
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 222:             break;
+[e = _min -> -> 0 `i `uc ]
+"223
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 223:         case 2:
+[e $U 165  ]
+"224
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 224:             switch(water_level_index)
+[e :U 170 ]
+"225
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 225:             {
+[e :U 171 ]
+"226
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 226:                 case 1:
+[e = _sec -> -> 57 `i `uc ]
+"227
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 227:                 case 0:
+[e = _min -> -> 0 `i `uc ]
+"228
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 228:                 case 2:
+}
+[e $U 165  ]
+[e :U 166 ]
+[e [\ -> _water_level_index `i , $ -> 1 `i 167
+ , $ -> 0 `i 168
+ , $ -> 2 `i 169
+ , $ -> 3 `i 170
+ , $ -> 4 `i 171
+ 165 ]
+[e :U 165 ]
+"229
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 229:                     sec=26;
+[e $U 154  ]
+"230
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 230:                     min=0;
+[e :U 172 ]
+"231
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 231:                     break ;
+[e $U 174  ]
+"232
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 232:                 case 3:
+{
+"233
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 233:                 case 4:
+[e :U 175 ]
+"234
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 234:                     sec=31;
+[e :U 176 ]
+"235
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 235:                     min=0;
+[e :U 177 ]
+"236
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 236:             }
+[e = _sec -> -> 26 `i `uc ]
+"237
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 237:             break;
+[e = _min -> -> 0 `i `uc ]
+"238
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 238:         case 3:
+[e $U 173  ]
+"239
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 239:             sec=16;
+[e :U 178 ]
+"240
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 240:             min=1;
+[e :U 179 ]
+"241
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 241:             break;
+[e = _sec -> -> 31 `i `uc ]
+"242
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 242:         case 4:
+[e = _min -> -> 0 `i `uc ]
+"243
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 243:             sec=36;
+}
+[e $U 173  ]
+[e :U 174 ]
+[e [\ -> _water_level_index `i , $ -> 1 `i 175
+ , $ -> 0 `i 176
+ , $ -> 2 `i 177
+ , $ -> 3 `i 178
+ , $ -> 4 `i 179
+ 173 ]
+[e :U 173 ]
+"244
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 244:             min=1;
+[e $U 154  ]
+"245
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 245:         case 5:
+[e :U 180 ]
+"246
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 246:             sec=28;
+[e = _sec -> -> 16 `i `uc ]
+"247
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 247:             min=0;
+[e = _min -> -> 1 `i `uc ]
+"248
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 248:             break;
+[e $U 154  ]
+"249
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 249:         case 6:
+[e :U 181 ]
+"250
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 250:             sec=29;
+[e = _sec -> -> 36 `i `uc ]
+"251
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 251:             break;
+[e = _min -> -> 1 `i `uc ]
+"252
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 252:         case 7:
+[e :U 182 ]
+"253
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 253:             switch(water_level_index)
+[e = _sec -> -> 28 `i `uc ]
+"254
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 254:             {
+[e = _min -> -> 0 `i `uc ]
+"255
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 255:                 case 1:
+[e $U 154  ]
+"256
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 256:                     sec=46;
+[e :U 183 ]
+"257
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 257:                     min=0;
+[e = _sec -> -> 29 `i `uc ]
+"258
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 258:                 case 0:
+[e $U 154  ]
+"259
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 259:                 case 2:
+[e :U 184 ]
+"260
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 260:                     sec=53;
+[e $U 186  ]
+"261
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 261:                     min=0;
+{
+"262
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 262:                     break;
+[e :U 187 ]
+"263
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 263:                 case 3:
+[e = _sec -> -> 46 `i `uc ]
+"264
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 264:                 case 4:
+[e = _min -> -> 0 `i `uc ]
+"265
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 265:                     sec=60;
+[e :U 188 ]
+"266
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 266:                     min=0;
+[e :U 189 ]
+"267
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 267:             }
+[e = _sec -> -> 53 `i `uc ]
+"268
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 268:             break;
+[e = _min -> -> 0 `i `uc ]
+"269
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 269:         case 8:
+[e $U 185  ]
+"270
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 270:             switch(water_level_index)
+[e :U 190 ]
+"271
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 271:             {
+[e :U 191 ]
+"272
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 272:                 case 1:
+[e = _sec -> -> 60 `i `uc ]
+"273
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 273:                     sec=18;
+[e = _min -> -> 0 `i `uc ]
+"274
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 274:                     min=0;
+}
+[e $U 185  ]
+[e :U 186 ]
+[e [\ -> _water_level_index `i , $ -> 1 `i 187
+ , $ -> 0 `i 188
+ , $ -> 2 `i 189
+ , $ -> 3 `i 190
+ , $ -> 4 `i 191
+ 185 ]
+[e :U 185 ]
+"275
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 275:                 case 0:
+[e $U 154  ]
+"276
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 276:                 case 2:
+[e :U 192 ]
+"277
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 277:                 case 3:
+[e $U 194  ]
+"278
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 278:                 case 4:
+{
+"279
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 279:                     sec=20;
+[e :U 195 ]
+"280
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 280:                     min=0;
+[e = _sec -> -> 18 `i `uc ]
+"281
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 281:             }
+[e = _min -> -> 0 `i `uc ]
+"282
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 282:             break;
+[e :U 196 ]
+"283
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 283:         case 9:
+[e :U 197 ]
+"284
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 284:             sec=6;
+[e :U 198 ]
+"285
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 285:             break;
+[e :U 199 ]
+"286
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 286:         case 10:
+[e = _sec -> -> 20 `i `uc ]
+"287
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 287:         case 11:
+[e = _min -> -> 0 `i `uc ]
+"288
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 288:             switch(water_level_index)
+}
+[e $U 193  ]
+[e :U 194 ]
+[e [\ -> _water_level_index `i , $ -> 1 `i 195
+ , $ -> 0 `i 196
+ , $ -> 2 `i 197
+ , $ -> 3 `i 198
+ , $ -> 4 `i 199
+ 193 ]
+[e :U 193 ]
+"289
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 289:             {
+[e $U 154  ]
+"290
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 290:                 case 1:
+[e :U 200 ]
+"291
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 291:                     sec=16;
+[e = _sec -> -> 6 `i `uc ]
+"292
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 292:                     min=0;
+[e $U 154  ]
+"293
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 293:                 case 0:
+[e :U 201 ]
+"294
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 294:                 case 2:
+[e :U 202 ]
+"295
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 295:                     sec=21;
+[e $U 204  ]
+"296
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 296:                     min=0;
+{
+"297
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 297:                     break;
+[e :U 205 ]
+"298
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 298:                 case 3:
+[e = _sec -> -> 16 `i `uc ]
+"299
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 299:                 case 4:
+[e = _min -> -> 0 `i `uc ]
+"300
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 300:                     sec=26;
+[e :U 206 ]
+"301
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 301:                     min=0;
+[e :U 207 ]
+"302
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 302:             }
+[e = _sec -> -> 21 `i `uc ]
+"303
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 303:             break;
+[e = _min -> -> 0 `i `uc ]
+"304
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 304:     }
+[e $U 203  ]
+"305
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 305: }
+[e :U 208 ]
+"306
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 306: void door_status_check(void)
+[e :U 209 ]
+"307
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 307: {
+[e = _sec -> -> 26 `i `uc ]
+"308
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 308:    if(RB0 == 0)
+[e = _min -> -> 0 `i `uc ]
+"309
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 309:    {
+}
+[e $U 203  ]
+[e :U 204 ]
+[e [\ -> _water_level_index `i , $ -> 1 `i 205
+ , $ -> 0 `i 206
+ , $ -> 2 `i 207
+ , $ -> 3 `i 208
+ , $ -> 4 `i 209
+ 203 ]
+[e :U 203 ]
+"310
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 310:        RC1=1;
+[e $U 154  ]
+"311
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 311:        RC2=0;
+}
+[e $U 154  ]
+[e :U 155 ]
+[e [\ -> _program_no `i , $ -> 0 `i 156
+ , $ -> 1 `i 164
+ , $ -> 2 `i 172
+ , $ -> 3 `i 180
+ , $ -> 4 `i 181
+ , $ -> 5 `i 182
+ , $ -> 6 `i 183
+ , $ -> 7 `i 184
+ , $ -> 8 `i 192
+ , $ -> 9 `i 200
+ , $ -> 10 `i 201
+ , $ -> 11 `i 202
+ 154 ]
+[e :U 154 ]
+"312
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 312:        RA0=0;
+[e :UE 153 ]
+}
+"313
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 313:        TMR2ON=0;
+[v _door_status_check `(v ~T0 @X0 1 ef ]
+"314
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 314:        clear_screen();
+{
+[e :U _door_status_check ]
+[f ]
+"315
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 315:        clcd_print("DOOR : OPEN",(0x80+0));
+[e $ ! == -> _RB0 `i -> 0 `i 211  ]
+"316
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 316:        clcd_print("Please CLose",(0xC0+0));
+{
+"317
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 317:        while(RB0==0)
+[e = _RC1 -> -> 1 `i `b ]
+"318
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 318:        {
+[e = _RC2 -> -> 0 `i `b ]
+"319
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 319:            ;
+[e = _RA0 -> -> 0 `i `b ]
+"320
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 320:        }
+[e = _TMR2ON -> -> 0 `i `b ]
+"321
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 321:        clear_screen();
+[e ( _clear_screen ..  ]
+"322
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 322:         clcd_print("Function -",(0x80+0));
+[e ( _clcd_print (2 , :s 30C -> + -> 128 `i -> 0 `i `uc ]
+"323
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 323:         clcd_print("Time= ",(0xC0+0));
+[e ( _clcd_print (2 , :s 31C -> + -> 192 `i -> 0 `i `uc ]
+"324
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 324:         clcd_print("5-START  6-PAUSE",(0xD0+0));
+[e $U 212  ]
+[e :U 213 ]
+"325
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 325:        RC2=1;
+{
+"327
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 327:        TMR2ON=1;
+}
+[e :U 212 ]
+"324
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 324:         clcd_print("5-START  6-PAUSE",(0xD0+0));
+[e $ == -> _RB0 `i -> 0 `i 213  ]
+[e :U 214 ]
+"328
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 328:        RC1=0;
+[e ( _clear_screen ..  ]
+"329
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 329:    }
+[e ( _clcd_print (2 , :s 32C -> + -> 128 `i -> 0 `i `uc ]
+"330
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 330: }
+[e ( _clcd_print (2 , :s 33C -> + -> 192 `i -> 0 `i `uc ]
+"331
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 331: void run_program(unsigned char key)
+[e ( _clcd_print (2 , :s 34C -> + -> 208 `i -> 0 `i `uc ]
+"332
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 332: {
+[e = _RC2 -> -> 1 `i `b ]
+"333
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 333:     static int total_time,time;
+[e = _RA0 -> -> 1 `i `b ]
+"334
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 334:     if(reset_mode==0x12)
+[e = _TMR2ON -> -> 1 `i `b ]
+"335
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 335:     {
+[e = _RC1 -> -> 0 `i `b ]
+"336
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 336:         clear_screen();
+}
+[e :U 211 ]
+"337
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 337:         clcd_print("Prog: ",(0x80+0));
+[e :UE 210 ]
+}
+"338
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 338:         clcd_print(washing_prog[program_no],(0x80+5));
+[v _run_program `(v ~T0 @X0 1 ef1`uc ]
+"339
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 339:         clcd_print("Time: ",(0xC0+0));
+{
+[e :U _run_program ]
+"338
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 338:         clcd_print(washing_prog[program_no],(0x80+5));
+[v _key `uc ~T0 @X0 1 r1 ]
+"339
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 339:         clcd_print("Time: ",(0xC0+0));
+[f ]
+"340
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 340:         clcd_putch((min/10)+'0',(0xC0+6));
+[v F1057 `i ~T0 @X0 1 s total_time ]
+[v F1058 `i ~T0 @X0 1 s time ]
+"341
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 341:         clcd_putch((min%10)+'0',(0xC0+7));
+[e $ ! == -> _reset_mode `i -> 18 `i 216  ]
+"342
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 342:         clcd_putch(':',(0xC0+8));
+{
+"343
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 343:         clcd_putch((sec/10)+'0',(0xC0+9));
+[e ( _clear_screen ..  ]
+"344
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 344:         clcd_putch((sec%10)+'0',(0xC0+10));
+[e ( _clcd_print (2 , :s 35C -> + -> 128 `i -> 0 `i `uc ]
+"345
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 345:         clcd_print("(MM:SS)",(0x90+5));
+[e ( _clcd_print (2 , -> *U + &U _washing_prog * -> _program_no `ux -> -> # *U &U _washing_prog `ui `ux `*Cuc -> + -> 128 `i -> 5 `i `uc ]
+"346
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 346:         _delay((unsigned long)((3000)*(20000000/4000.0)));
+[e ( _clcd_print (2 , :s 36C -> + -> 192 `i -> 0 `i `uc ]
+"347
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 347:         clear_screen();
+[e ( _clcd_putch (2 , -> + -> / -> _min `i -> 10 `i `ui -> 48 `ui `uc -> + -> 192 `i -> 6 `i `uc ]
+"348
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 348:         clcd_print("Function -",(0x80+0));
+[e ( _clcd_putch (2 , -> + -> % -> _min `i -> 10 `i `ui -> 48 `ui `uc -> + -> 192 `i -> 7 `i `uc ]
+"349
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 349:         clcd_print("Time = ",(0xC0+0));
+[e ( _clcd_putch (2 , -> -> 58 `ui `uc -> + -> 192 `i -> 8 `i `uc ]
+"350
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 350:         clcd_print("5-START  6-PAUSE",(0xD0+0));
+[e ( _clcd_putch (2 , -> + -> / -> _sec `i -> 10 `i `ui -> 48 `ui `uc -> + -> 192 `i -> 9 `i `uc ]
+"351
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 351:         time=total_time=(min*60+sec);
+[e ( _clcd_putch (2 , -> + -> % -> _sec `i -> 10 `i `ui -> 48 `ui `uc -> + -> 192 `i -> 10 `i `uc ]
+"352
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 352:         wash_time= (int)(total_time * 0.46);
+[e ( _clcd_print (2 , :s 37C -> + -> 144 `i -> 5 `i `uc ]
+"353
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 353:         rinse_time=(int)(total_time * 0.12);
+[e ( __delay (1 -> * -> -> 3000 `i `d / -> -> 20000000 `l `d .4000.0 `ul ]
+"354
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 354:         spin_time=(total_time - wash_time - rinse_time);
+[e ( _clear_screen ..  ]
+"355
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 355:         TMR2ON = 1;
+[e ( _clcd_print (2 , :s 38C -> + -> 128 `i -> 0 `i `uc ]
+"356
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 356:         RC2=1;
+[e ( _clcd_print (2 , :s 39C -> + -> 192 `i -> 0 `i `uc ]
+"357
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 357:         RA0=1;
+[e ( _clcd_print (2 , :s 40C -> + -> 208 `i -> 0 `i `uc ]
+"358
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 358:     }
+[e = F1058 = F1057 + * -> _min `i -> 60 `i -> _sec `i ]
+"359
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 359:     door_status_check();
+[e = _wash_time -> * -> F1057 `d .0.46 `i ]
+"360
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 360:     if(key==0x1F)
+[e = _rinse_time -> * -> F1057 `d .0.12 `i ]
+"361
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 361:     {
+[e = _spin_time - - F1057 _wash_time _rinse_time ]
+"362
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 362:         TMR2ON=0;
+[e = _TMR2ON -> -> 1 `i `b ]
+"363
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 363:         RC2=0;
+[e = _RC2 -> -> 1 `i `b ]
+"364
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 364:         operation_mode=0x05;
+[e = _RA0 -> -> 1 `i `b ]
+"365
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 365:         RA0=0;
+}
+[e :U 216 ]
+"366
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 366:     }
+[e ( _door_status_check ..  ]
+"367
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 367:     total_time=(min * 60 + sec);
+[e $ ! == -> _key `i -> 31 `i 217  ]
+"368
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 368:     if(program_no<7)
+{
+"369
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 369:     {
+[e = _TMR2ON -> -> 0 `i `b ]
+"370
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 370:     if(total_time >=( time - wash_time))
+[e = _RC2 -> -> 0 `i `b ]
+"371
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 371:     {
+[e = _operation_mode -> -> 5 `i `uc ]
+"372
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 372:         clcd_print("Wash",(0x80+11));
+[e = _RA0 -> -> 0 `i `b ]
+"373
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 373:     }
+}
+[e :U 217 ]
+"374
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 374:     else if(total_time >= (time - wash_time - rinse_time))
+[e = F1057 + * -> _min `i -> 60 `i -> _sec `i ]
+"375
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 375:     {
+[e $ ! < -> _program_no `i -> 7 `i 218  ]
+"376
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 376:         clcd_print("Rinse",(0x80+11));
+{
+"377
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 377:     }
+[e $ ! >= F1057 - F1058 _wash_time 219  ]
+"378
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 378:     else
+{
+"379
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 379:     clcd_print(" Spin",(0x80+11));
+[e ( _clcd_print (2 , :s 41C -> + -> 128 `i -> 11 `i `uc ]
+"380
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 380:     }
+}
+[e $U 220  ]
+"381
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 381:     else if(program_no==8)
+[e :U 219 ]
+[e $ ! >= F1057 - - F1058 _wash_time _rinse_time 221  ]
+"382
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 382:     {
+{
+"383
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 383:         if(total_time>=(time - (int)(0.40*time)))
+[e ( _clcd_print (2 , :s 42C -> + -> 128 `i -> 11 `i `uc ]
+"384
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 384:         {
+}
+[e $U 222  ]
+"385
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 385:             clcd_print("Rinse",(0x80+11));
+[e :U 221 ]
+"386
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 386:         }
+[e ( _clcd_print (2 , :s 43C -> + -> 128 `i -> 11 `i `uc ]
+[e :U 222 ]
+[e :U 220 ]
+"387
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 387:         else
+}
+[e $U 223  ]
+"388
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 388:             clcd_print(" Spin",(0x80+11));
+[e :U 218 ]
+[e $ ! == -> _program_no `i -> 8 `i 224  ]
+"389
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 389:     }
+{
+"390
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 390:     else if(program_no==9)
+[e $ ! >= F1057 - F1058 -> * .0.40 -> F1058 `d `i 225  ]
+"391
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 391:     {
+{
+"392
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 392:         clcd_print("Rinse",(0x80+11));
+[e ( _clcd_print (2 , :s 44C -> + -> 128 `i -> 11 `i `uc ]
+"393
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 393:     }
+}
+[e $U 226  ]
+"394
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 394:     else
+[e :U 225 ]
+"395
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 395:     {
+[e ( _clcd_print (2 , :s 45C -> + -> 128 `i -> 11 `i `uc ]
+[e :U 226 ]
+"396
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 396:          clcd_print("Wash",(0x80+11));
+}
+[e $U 227  ]
+"397
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 397:     }
+[e :U 224 ]
+[e $ ! == -> _program_no `i -> 9 `i 228  ]
+"398
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 398:     clcd_putch((min/10)+'0',(0xC0+6));
+{
+"399
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 399:     clcd_putch((min%10)+'0',(0xC0+7));
+[e ( _clcd_print (2 , :s 46C -> + -> 128 `i -> 11 `i `uc ]
+"400
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 400:     clcd_putch(':',(0xC0+8));
+}
+[e $U 229  ]
+"401
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 401:     clcd_putch((sec/10)+'0',(0xC0+9));
+[e :U 228 ]
+"402
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 402:     clcd_putch((sec%10)+'0',(0xC0+10));
+{
+"403
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 403:     if(sec==0 && min==0)
+[e ( _clcd_print (2 , :s 47C -> + -> 128 `i -> 11 `i `uc ]
+"404
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 404:     {
+}
+[e :U 229 ]
+[e :U 227 ]
+[e :U 223 ]
+"405
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 405:         TMR2ON = 0;
+[e ( _clcd_putch (2 , -> + -> / -> _min `i -> 10 `i `ui -> 48 `ui `uc -> + -> 192 `i -> 6 `i `uc ]
+"406
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 406:         RC2 = 0;
+[e ( _clcd_putch (2 , -> + -> % -> _min `i -> 10 `i `ui -> 48 `ui `uc -> + -> 192 `i -> 7 `i `uc ]
+"407
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 407:         RA0=0;
+[e ( _clcd_putch (2 , -> -> 58 `ui `uc -> + -> 192 `i -> 8 `i `uc ]
+"408
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 408:         RC1 = 1;
+[e ( _clcd_putch (2 , -> + -> / -> _sec `i -> 10 `i `ui -> 48 `ui `uc -> + -> 192 `i -> 9 `i `uc ]
+"409
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 409:         clear_screen();
+[e ( _clcd_putch (2 , -> + -> % -> _sec `i -> 10 `i `ui -> 48 `ui `uc -> + -> 192 `i -> 10 `i `uc ]
+"410
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 410:         clcd_print("Prog Completed",(0x80+0));
+[e $ ! && == -> _sec `i -> 0 `i == -> _min `i -> 0 `i 230  ]
+"411
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 411:         clcd_print("Remove Clothes",(0xC0+0));
+{
+"412
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 412:         _delay((unsigned long)((1000)*(20000000/4000.0)));
+[e = _TMR2ON -> -> 0 `i `b ]
+"413
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 413:         RC1=0;
+[e = _RC2 -> -> 0 `i `b ]
+"414
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 414:         operation_mode=0x01;
+[e = _RA0 -> -> 0 `i `b ]
+"415
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 415:         reset_mode=0x10;
+[e = _RC1 -> -> 1 `i `b ]
+"416
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 416:         clear_screen();
+[e ( _clear_screen ..  ]
+"417
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 417:     }
+[e ( _clcd_print (2 , :s 48C -> + -> 128 `i -> 0 `i `uc ]
+"418
+[; ;C:/Users/faizan/OneDrive/Desktop/washing-machine-in-picsimlab-main/washing-machine-in-picsimlab-main/main.c: 418: }
+[e ( _clcd_print (2 , :s 49C -> + -> 192 `i -> 0 `i `uc ]
+"419
+[e ( __delay (1 -> * -> -> 1000 `i `d / -> -> 20000000 `l `d .4000.0 `ul ]
+"420
+[e = _RC1 -> -> 0 `i `b ]
+"421
+[e = _operation_mode -> -> 1 `i `uc ]
+"422
+[e = _reset_mode -> -> 16 `i `uc ]
+"423
+[e ( _clear_screen ..  ]
+"424
+}
+[e :U 230 ]
+"425
+[e :UE 215 ]
+}
+[a 2C 72 101 97 118 121 0 ]
+[a 9C 82 105 110 115 101 43 68 114 121 0 ]
+[a 10C 68 114 121 32 111 110 108 121 0 ]
+[a 11C 87 97 115 104 32 111 110 108 121 0 ]
+[a 1C 68 97 105 108 121 0 ]
+[a 17C 77 97 120 0 ]
+[a 14C 76 111 119 0 ]
+[a 8C 66 101 100 115 104 101 101 116 115 0 ]
+[a 6C 69 99 111 67 111 116 116 111 110 115 0 ]
+[a 7C 87 111 108 108 101 110 115 0 ]
+[a 28C 87 97 115 104 105 110 103 32 80 114 111 103 114 97 109 115 0 ]
+[a 4C 87 104 105 116 101 115 0 ]
+[a 3C 68 101 108 105 99 97 116 101 115 0 ]
+[a 49C 82 101 109 111 118 101 32 67 108 111 116 104 101 115 0 ]
+[a 13C 65 117 116 111 0 ]
+[a 43C 32 83 112 105 110 0 ]
+[a 45C 32 83 112 105 110 0 ]
+[a 15C 77 101 100 105 117 109 0 ]
+[a 5C 83 116 97 105 110 119 97 115 104 0 ]
+[a 41C 87 97 115 104 0 ]
+[a 47C 87 97 115 104 0 ]
+[a 16C 72 105 103 104 0 ]
+[a 31C 80 108 101 97 115 101 32 67 76 111 115 101 0 ]
+[a 42C 82 105 110 115 101 0 ]
+[a 44C 82 105 110 115 101 0 ]
+[a 46C 82 105 110 115 101 0 ]
+[a 12C 65 113 117 97 32 83 116 111 114 101 0 ]
+[a 48C 80 114 111 103 32 67 111 109 112 108 101 116 101 100 0 ]
+[a 30C 68 79 79 82 32 58 32 79 80 69 78 0 ]
+[a 34C 53 45 83 84 65 82 84 32 32 54 45 80 65 85 83 69 0 ]
+[a 40C 53 45 83 84 65 82 84 32 32 54 45 80 65 85 83 69 0 ]
+[a 29C 87 97 116 101 114 32 76 101 118 101 108 58 0 ]
+[a 21C 32 80 114 101 115 115 32 83 119 105 116 99 104 58 0 ]
+[a 25C 77 97 105 110 32 83 99 114 101 101 110 46 46 46 0 ]
+[a 32C 70 117 110 99 116 105 111 110 32 45 0 ]
+[a 38C 70 117 110 99 116 105 111 110 32 45 0 ]
+[a 37C 40 77 77 58 83 83 41 0 ]
+[a 24C 82 101 116 117 114 110 105 110 103 32 84 111 32 0 ]
+[a 18C 32 80 114 101 115 115 32 75 101 121 53 32 84 111 32 0 ]
+[a 20C 32 87 97 115 104 105 110 103 32 77 97 99 104 105 110 101 32 0 ]
+[a 27C 32 87 97 115 104 105 110 103 32 77 97 99 104 105 110 101 32 0 ]
+[a 22C 32 83 87 53 58 32 83 84 65 82 84 32 0 ]
+[a 23C 32 83 87 54 58 32 83 84 79 80 32 0 ]
+[a 33C 84 105 109 101 61 32 0 ]
+[a 39C 84 105 109 101 32 61 32 0 ]
+[a 35C 80 114 111 103 58 32 0 ]
+[a 36C 84 105 109 101 58 32 0 ]
+[a 26C 32 32 80 111 119 101 114 105 110 103 32 79 78 32 32 32 0 ]
+[a 19C 32 32 32 32 80 111 119 101 114 32 79 78 32 32 32 32 0 ]
